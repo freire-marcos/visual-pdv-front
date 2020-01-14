@@ -16,6 +16,8 @@ import { UpgradeComponent }         from '../../pages/upgrade/upgrade.component'
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { VendasComponent } from 'app/pages/vendas/vendas.component';
+import { EstoqueDashboardComponent } from 'app/pages/estoque/estoque-dashboard/estoque-dashboard.component';
+
 import { ListaProdutosComponent } from 'app/pages/estoque/lista-produtos/lista-produtos.component';
 
 @NgModule({
@@ -23,10 +25,11 @@ import { ListaProdutosComponent } from 'app/pages/estoque/lista-produtos/lista-p
     CommonModule,
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,
-    NgbModule,
+    NgbModule
   ],
   declarations: [
     DashboardComponent,
+    EstoqueDashboardComponent,
     ListaProdutosComponent,
     VendasComponent,
     UserComponent,

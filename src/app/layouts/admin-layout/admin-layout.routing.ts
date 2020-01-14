@@ -10,12 +10,12 @@ import { NotificationsComponent } from '../../pages/notifications/notifications.
 import { UpgradeComponent } from '../../pages/upgrade/upgrade.component';
 
 import { VendasComponent } from 'app/pages/vendas/vendas.component';
-import { ListaProdutosComponent } from 'app/pages/estoque/lista-produtos/lista-produtos.component';
+import { EstoqueDashboardComponent } from 'app/pages/estoque/estoque-dashboard/estoque-dashboard.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'dashboard',      component: DashboardComponent },
     { path: 'vendas',         component: VendasComponent },
-    { path: 'lista-produtos', component: ListaProdutosComponent },
+    { path: 'estoque-dashboard',component: EstoqueDashboardComponent },
     { path: 'user',           component: UserComponent },
     { path: 'table',          component: TableComponent },
     { path: 'typography',     component: TypographyComponent },
