@@ -15,9 +15,8 @@ import { NotificationsComponent }   from '../../pages/notifications/notification
 import { UpgradeComponent }         from '../../pages/upgrade/upgrade.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { EstoqueComponent } from 'app/pages/estoque/estoque.component';
 import { VendasComponent } from 'app/pages/vendas/vendas.component';
-import { ListaProdutosComponent } from 'app/pages/lista-produtos/lista-produtos.component';
+import { ListaProdutosComponent } from 'app/pages/estoque/lista-produtos/lista-produtos.component';
 
 @NgModule({
   imports: [
@@ -28,19 +27,15 @@ import { ListaProdutosComponent } from 'app/pages/lista-produtos/lista-produtos.
   ],
   declarations: [
     DashboardComponent,
+    ListaProdutosComponent,
     VendasComponent,
-    EstoqueComponent,
     UserComponent,
     TableComponent,
     UpgradeComponent,
     TypographyComponent,
     IconsComponent,
     MapsComponent,
-    NotificationsComponent,
-    ListaProdutosComponent
-  ],
-  exports: [
-    ListaProdutosComponent
+    NotificationsComponent
   ]
 })
 

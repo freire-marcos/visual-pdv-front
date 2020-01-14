@@ -8,13 +8,14 @@ import { IconsComponent } from '../../pages/icons/icons.component';
 import { MapsComponent } from '../../pages/maps/maps.component';
 import { NotificationsComponent } from '../../pages/notifications/notifications.component';
 import { UpgradeComponent } from '../../pages/upgrade/upgrade.component';
-import { EstoqueComponent } from 'app/pages/estoque/estoque.component';
+
 import { VendasComponent } from 'app/pages/vendas/vendas.component';
+import { ListaProdutosComponent } from 'app/pages/estoque/lista-produtos/lista-produtos.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'dashboard',      component: DashboardComponent },
     { path: 'vendas',         component: VendasComponent },
-    { path: 'estoque',        component: EstoqueComponent },
+    { path: 'lista-produtos', component: ListaProdutosComponent },
     { path: 'user',           component: UserComponent },
     { path: 'table',          component: TableComponent },
     { path: 'typography',     component: TypographyComponent },
